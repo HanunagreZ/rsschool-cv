@@ -23,3 +23,36 @@
 * VS Code
 
 ***
+
+### Code Example (task from codewars):
+```
+function removeSmallest(numbers) {
+  let newArray = [...numbers];
+  let smallestIndex = 0;
+  let smallestNumber = Math.min(...numbers);
+
+  for (let = i; i < numbers.length; i++) {
+    if (newArray[i] == smallestNumber) {
+      smallestIndex = i;
+      break;    
+    }
+  }
+  
+  newArray.splice(smallestIndex, 1);
+  return newArray;
+}
+```
+***
+### Education:
+* Code Basics:
+  + HTML
+  + CSS
+  + JavaScript
+* Self-study:
+  + codewars (6 kyu)
+  + book (JavaScript)
+
+***
+### Languages:
+* Russian - Native
+* English - Intermediate (B1)
