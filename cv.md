@@ -24,7 +24,7 @@
 
 ***
 
-### Code Example (task from codewars):
+### Code Example (task from Codewars):
 ```
 function removeSmallest(numbers) {
   let newArray = [...numbers];
